@@ -1,0 +1,88 @@
+.signin_container{
+    background-color:whitesmoke;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    height:120vh;
+    align-items: center;
+}
+
+.signin_card_container{
+    margin-top: 6%;
+    background-color: white;
+    width:100vh;
+    height:100vh;
+}
+
+.sign_in_tabs{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.tab1 {
+    flex-grow: 1;
+    background-color: blueviolet;
+    text-align: center;
+    height:9vh;
+}
+.tab2{
+    flex-grow: 1;
+    background-color: pink;
+    text-align: center;
+}
+
+.social_network_login{
+    display: flex;
+    flex-direction: row;
+}
+.facebook_button_container{
+    display: flex;
+    height:5vh;
+    background-color: aqua;
+    flex-grow: 1;
+    justify-content: center;
+}
+.google_button_container{
+    flex-grow: 1;
+    height: 5vh;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+}
+/* .or_seprator_container{
+    display: flex;
+    margin-top:20px;
+     align-items: center;
+    justify-content: center; 
+}
+
+ .or_seprator_line{
+    height: 2px;
+    background-color: #5c7c97;
+}
+
+.or_seprator_text{
+
+    margin: 0 10px;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    min-width: 32px;
+} */ 
+
+.or_seprator_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10%;
+}
+.or_line_container{
+    width:30vh;
+}
+.or_seprator_line{
+    background-color: #5c7c97;
+}
+.or_seprator_text{
+    margin-left:10%;
+    margin-right:10%;
+}
